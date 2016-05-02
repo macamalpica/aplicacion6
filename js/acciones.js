@@ -1,6 +1,6 @@
 // JavaScript Document
   $(document).ready(function (e){
-  document.addEventListener ("devicereadry", function(){
+  document.addEventListener ("devicereadry",function(){
 
   $('#beep').tap(function (){
   navigator.notification.beep (1);
